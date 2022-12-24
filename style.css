@@ -1,0 +1,69 @@
+:root {
+  --mainColor: #143f6b;
+  --secondaryColor: #ffff;
+}
+body {
+  background-color: var(--secondaryColor);
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+  background-color: var(--mainColor);
+}
+.nav-link {
+  color: #feb139;
+}
+.nav-link.active {
+  font-weight: 700;
+  color: #feb139;
+}
+#hero {
+  background-color: var(--mainColor);
+}
+h2 {
+  color: #feb139;
+}
+h3 {
+  color: #feb139;
+}
+p {
+  color: #ffff;
+}
+.heroimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#myskills {
+  background-color: var(--secondaryColor);
+}
+.btn-skill {
+  height: 200px;
+  width: 180px;
+  border: none;
+  background-color: var(--mainColor);
+  transition: all ease-in 0.3s;
+}
+.btn-skill:hover {
+  height: 200px;
+  width: 180px;
+  border: none;
+  background-color: var(--mainColor);
+  border-radius: 40px;
+}
+#certificates {
+  background-color: var(--mainColor);
+}
+.btn-submit {
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: #feb139;
+  background-color: var(--mainColor);
+  border-radius: 10px;
+}
+.form-label {
+  color: var(--mainColor);
+}
+#footer {
+  background-color: var(--mainColor);
+}
