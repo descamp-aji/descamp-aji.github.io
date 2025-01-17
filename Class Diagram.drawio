@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="CSPjvqY9FOuS847hUlOu">
-    <mxGraphModel dx="954" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,22 +14,22 @@
           <mxGeometry y="90" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="atNGK4b112jw8yFuXOB3-18" value="Pengunjung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="320" width="160" height="130" as="geometry" />
+          <mxGeometry x="160" y="300" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="atNGK4b112jw8yFuXOB3-19" value="ID&lt;div&gt;nama&lt;/div&gt;&lt;div&gt;address&lt;/div&gt;&lt;div&gt;phone_number&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="atNGK4b112jw8yFuXOB3-18" vertex="1">
           <mxGeometry y="30" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="atNGK4b112jw8yFuXOB3-20" value="+pinjam buku&lt;br&gt;+mengembalikan buku" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="atNGK4b112jw8yFuXOB3-18" vertex="1">
-          <mxGeometry y="90" width="160" height="40" as="geometry" />
+        <mxCell id="atNGK4b112jw8yFuXOB3-20" value="+tambah pengunjung&lt;br&gt;+hapus pengunjung&lt;div&gt;+update pengunjung&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="atNGK4b112jw8yFuXOB3-18" vertex="1">
+          <mxGeometry y="90" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="atNGK4b112jw8yFuXOB3-21" value="Petugas Perpustakaan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="310" width="160" height="150" as="geometry" />
+          <mxGeometry x="540" y="311" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="atNGK4b112jw8yFuXOB3-22" value="ID&lt;div&gt;nama&lt;/div&gt;&lt;div&gt;nip_pegawai&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="atNGK4b112jw8yFuXOB3-21" vertex="1">
           <mxGeometry y="30" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="atNGK4b112jw8yFuXOB3-23" value="+tambah buku&lt;br&gt;+hapus buku&lt;div&gt;+mengelola pengunjung&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="atNGK4b112jw8yFuXOB3-21" vertex="1">
-          <mxGeometry y="90" width="160" height="60" as="geometry" />
+        <mxCell id="atNGK4b112jw8yFuXOB3-23" value="+tambah buku&lt;br&gt;+hapus buku" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="atNGK4b112jw8yFuXOB3-21" vertex="1">
+          <mxGeometry y="90" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="atNGK4b112jw8yFuXOB3-27" value="Peminjaman" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="529" width="160" height="110" as="geometry" />
@@ -57,7 +57,7 @@
             <mxPoint x="540" y="585" as="sourcePoint" />
             <mxPoint x="600" y="585" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="460" y="460" />
+              <mxPoint x="460" y="441" />
             </Array>
           </mxGeometry>
         </mxCell>
